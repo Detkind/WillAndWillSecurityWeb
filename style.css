@@ -221,3 +221,10 @@ p {
 .btn:hover {
     background-color: var(--color-2);
 }
+
+.imgHere {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
