@@ -63,7 +63,6 @@ nav {
     position: relative;
     padding: 5px 25px;
     background-color: white;
-    box-shadow: 0 0px 10px 2px rgba(0,0,0,.2);
 }
 
 a {
@@ -227,4 +226,10 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.add-shadow {
+    box-shadow: 0 0px 10px 2px rgba(0,0,0,.2);
+    transition: 0.3s;
+
 }
